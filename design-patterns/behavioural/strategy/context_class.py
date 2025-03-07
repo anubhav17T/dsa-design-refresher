@@ -3,10 +3,10 @@ from payment_concrete_strategy import CardPayment, BitcoinPayment
 
 
 class ProcessPayment:
-    def __init__(self, strategy: PaymentStrategy):
+    def __init__(self, strategy):
         self.strategy = strategy
 
-    def set_strategy(self,strategy:PaymentStrategy):
+    def set_strategy(self,strategy):
         self.strategy = strategy
 
     def process_payment(self, amount):

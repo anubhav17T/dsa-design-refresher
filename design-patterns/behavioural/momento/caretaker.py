@@ -1,12 +1,12 @@
 class UndoRedoManager:
+
     def __init__(self):
         self.undo_stack = []
         self.redo_stack = []
 
-    def save_state(self,momento):
+    def save_state(self, momento):
         self.undo_stack.append(momento)
         self.redo_stack.clear()
-
 
     def undo(self):
         if self.undo_stack:
@@ -21,6 +21,3 @@ class UndoRedoManager:
             self.undo_stack.append(redo_state)
             return redo_state
         return None
-
-
-
