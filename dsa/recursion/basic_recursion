@@ -1,0 +1,10 @@
+#basic recursion
+
+def recursive_function(parameter):
+    if base-condition met:
+        return something base value and function stops
+    else:
+        recursive_function(modified_parameter)
+
+
+
