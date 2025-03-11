@@ -7,4 +7,4 @@ def factorial(num):
     return result
 
 
-result = factorial(num=10)
+result = factorial(num=23)

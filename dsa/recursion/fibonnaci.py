@@ -8,7 +8,7 @@ def fib(num: int) -> int:
     return b
 
 
-fib(num=20)
+fib(num=5)
 
 
 
@@ -18,4 +18,4 @@ def fibr(num:int)->int:
     else:
         return fib(num-1)+fib(num-2)
 
-fibr(num=20)
+print(fibr(num=4))
